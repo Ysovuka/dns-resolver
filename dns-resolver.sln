@@ -3,8 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5F0C2D7A-5FED-4CC5-A821-22E172AF0454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dns", "src\Dns\Dns.csproj", "{1A824FC3-72DE-4352-825C-92502E1B916C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A824FC3-72DE-4352-825C-92502E1B916C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A824FC3-72DE-4352-825C-92502E1B916C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A824FC3-72DE-4352-825C-92502E1B916C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A824FC3-72DE-4352-825C-92502E1B916C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A824FC3-72DE-4352-825C-92502E1B916C} = {5F0C2D7A-5FED-4CC5-A821-22E172AF0454}
 	EndGlobalSection
 EndGlobal
