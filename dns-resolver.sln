@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5F0C2D7A-5FE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dns", "src\Dns\Dns.csproj", "{1A824FC3-72DE-4352-825C-92502E1B916C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{11E29873-673C-4101-ACD9-B084298CC52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dns.UnitTests", "tests\Dns.UnitTests\Dns.UnitTests.csproj", "{08888012-190A-49D9-B1DE-79AAE4E2267B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{1A824FC3-72DE-4352-825C-92502E1B916C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A824FC3-72DE-4352-825C-92502E1B916C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A824FC3-72DE-4352-825C-92502E1B916C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08888012-190A-49D9-B1DE-79AAE4E2267B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08888012-190A-49D9-B1DE-79AAE4E2267B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08888012-190A-49D9-B1DE-79AAE4E2267B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08888012-190A-49D9-B1DE-79AAE4E2267B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1A824FC3-72DE-4352-825C-92502E1B916C} = {5F0C2D7A-5FED-4CC5-A821-22E172AF0454}
+		{08888012-190A-49D9-B1DE-79AAE4E2267B} = {11E29873-673C-4101-ACD9-B084298CC52E}
 	EndGlobalSection
 EndGlobal
